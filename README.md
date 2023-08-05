@@ -95,4 +95,6 @@ bspatch实现了差分升级的核心算法,和LZ77结合可以进一步压缩�
 LZ77参考：https://github.com/cstdvd/lz77.git  
 bsdiff参考：https://github.com/mendsley/bsdiff.git
 
-
+# 3、TODO
+ - [] stm32f405_platform 代码未测试
+ - [] linux_platform 工程不完备，仅仅可生成差分升级包，需要增加r_boot_master部分功能，和kp_can模块，与stm32的demo配合测试。
